@@ -29,9 +29,9 @@ const App = () => {
   };
 
   return (
-    <div>
-      <div className='bg-blue-200 h-screen p-6'>
-      <h1 className='text-3xl font-bold capitalize pt-10'>Daily Expenses Calculator</h1>
+    <div className='bg-blue-200 h-screen'>
+      <div className='bg-blue-200 p-6'>
+      <h1 className='text-3xl font-bold text-center capitalize pt-10'>Daily Expenses Calculator</h1>
       <ExpenseForm onAddExpense={handleAddExpense} />
       <IncomeForm onAddIncome={handleAddIncome} />
       <ExpenseList expenses={expenses} />
